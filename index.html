@@ -169,14 +169,20 @@
             background-color: #fff;
             border-radius: 8px;
             transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer; /* Menambahkan kursor pointer untuk menunjukkan klik */
         }
         .produk-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
+        /* Style untuk link di produk-item */
+        .produk-item a {
+            text-decoration: none; /* Menghilangkan garis bawah dari link */
+            color: #004d99;
+        }
         .produk-item h3 {
             margin-top: 0;
-            color: #004d99;
+            color: inherit; /* Mewarisi warna dari link */
             font-size: 1.1em;
         }
         .produk-item p {
@@ -204,10 +210,7 @@
 
     <header>
         <div class="nav-left">
-            <a href="#">Beranda</a>
-            <a href="#">Tentang Kami</a>
-            <a href="#">Produk</a>
-        </div>
+            <a href="https://wa.me/message/UKWNL5BO6NQ2G1">Beranda</a> <a href="https://wa.me/message/UKWNL5BO6NQ2G1">Tentang Kami</a> <a href="https://wa.me/message/UKWNL5BO6NQ2G1">Produk</a> </div>
 
         <div class="contact-right">
             <a href="https://wa.me/message/UKWNL5BO6NQ2G1">Hubungi Kami (WA)</a>
@@ -235,7 +238,7 @@
                 Kami memahami pentingnya kebutuhan dasar setiap individu dan keluarga, dan itulah mengapa kami berdedikasi 
                 untuk memastikan ketersediaan barang dengan kualitas terbaik.
             </p>
-            <a href="#contact" class="cta-button">
+            <a href="https://wa.me/message/UKWNL5BO6NQ2G1" class="cta-button">
                 Yuk, Penuhi Kebutuhanmu Sekarang!
             </a>
         </div>
@@ -244,52 +247,66 @@
             <div class="produk-list">
                 
                 <div class="produk-item">
-                    <img src="wilmar.jpg" alt="Minyak Kita Wilmar Pouch" class="produk-image">
-                    <h3>Minyak Kita 1L</h3>
-                    <p>Produsen: Wilmar</p>
-                    <span>Kemasan: Pouch (Kantong)</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="wilmar.jpg" alt="Minyak Kita Wilmar Pouch" class="produk-image">
+                        <h3>Minyak Kita 1L</h3>
+                        <p>Produsen: Wilmar</p>
+                        <span>Kemasan: Pouch (Kantong)</span>
+                    </a>
                 </div>
                 
                 <div class="produk-item">
-                    <img src="sinargemilang.jpg" alt="Minyak Kita Sinar Gemilang Botol" class="produk-image">
-                    <h3>Minyak Kita 1L</h3>
-                    <p>Produsen: Sinar Gemilang</p>
-                    <span>Kemasan: Botol</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="sinargemilang.jpg" alt="Minyak Kita Sinar Gemilang Botol" class="produk-image">
+                        <h3>Minyak Kita 1L</h3>
+                        <p>Produsen: Sinar Gemilang</p>
+                        <span>Kemasan: Botol</span>
+                    </a>
                 </div>
                 
                 <div class="produk-item">
-                    <img src="sinarmas.jpg" alt="Minyak Kita SinarMas Pouch" class="produk-image">
-                    <h3>Minyak Kita 1L</h3>
-                    <p>Produsen: SinarMas</p>
-                    <span>Kemasan: Pouch (Kantong)</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="sinarmas.jpg" alt="Minyak Kita SinarMas Pouch" class="produk-image">
+                        <h3>Minyak Kita 1L</h3>
+                        <p>Produsen: SinarMas</p>
+                        <span>Kemasan: Pouch (Kantong)</span>
+                    </a>
                 </div>
 
                 <div class="produk-item">
-                    <img src="rosebrand.jpg" alt="Beras Rosebrand" class="produk-image">
-                    <h3>Beras Rose Brand</h3>
-                    <p>Varian: Premium</p>
-                    <span>Tersedia 5kg.</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="rosebrand.jpg" alt="Beras Rosebrand" class="produk-image">
+                        <h3>Beras Rose Brand</h3>
+                        <p>Varian: Premium</p>
+                        <span>Tersedia 5kg.</span>
+                    </a>
                 </div>
 
                 <div class="produk-item">
-                    <img src="goodday.jpg" alt="Kopi Good Day" class="produk-image">
-                    <h3>Kopi Good Day</h3>
-                    <p>Kemasan: Karton</p>
-                    <span>Varian Rasa Lengkap</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="goodday.jpg" alt="Kopi Good Day" class="produk-image">
+                        <h3>Kopi Good Day</h3>
+                        <p>Kemasan: Karton</p>
+                        <span>Varian Rasa Lengkap</span>
+                    </a>
                 </div>
 
                 <div class="produk-item">
-                    <img src="teh.jpg" alt="Teh Celup" class="produk-image">
-                    <h3>Teh Celup</h3>
-                    <p>Kemasan: Karton</p>
-                    <span>Merek Pilihan Terbaik</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="teh.jpg" alt="Teh Celup" class="produk-image">
+                        <h3>Teh Celup</h3>
+                        <p>Kemasan: Karton</p>
+                        <span>Merek Pilihan Terbaik</span>
+                    </a>
                 </div>
 
                 <div class="produk-item">
-                    <img src="sedaap.jpg" alt="Mie Sedaap Goreng/Kuah" class="produk-image">
-                    <h3>Mie Sedaap</h3>
-                    <p>Kemasan: Karton</p>
-                    <span>Goreng & Kuah (Mix)</span>
+                    <a href="https://wa.me/message/UKWNL5BO6NQ2G1">
+                        <img src="sedaap.jpg" alt="Mie Sedaap Goreng/Kuah" class="produk-image">
+                        <h3>Mie Sedaap</h3>
+                        <p>Kemasan: Karton</p>
+                        <span>Goreng & Kuah (Mix)</span>
+                    </a>
                 </div>
 
             </div>
